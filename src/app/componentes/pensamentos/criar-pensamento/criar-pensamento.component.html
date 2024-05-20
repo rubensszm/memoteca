@@ -4,18 +4,18 @@
     </header>
     <form>
         <label for="pensamento">Pensamento</label>
-        <input 
-            type="textarea" 
-            class="input" 
+        <input
+            type="textarea"
+            class="input"
             id="pensamento"
             name="pensamento"
             placeholder="Digite o pensamento"
             [(ngModel)]="pensamento.conteudo"
         >
         <label for="autoria">Autoria ou fonte</label>
-        <input 
+        <input
             type="text"
-            class="input" 
+            class="input"
             id="autoria"
             name="autoria"
             placeholder="Digite a autoria ou fonte"
@@ -25,7 +25,7 @@
         <div class="container-radio">
             <div class="radio-modelo">
                 <label for="modelo1">
-                    <input 
+                    <input
                         type="radio"
                         id="modelo1"
                         value="modelo1"
@@ -46,7 +46,7 @@
             </div>
             <div class="radio-modelo">
                 <label for="modelo2">
-                    <input 
+                    <input
                         type="radio"
                         id="modelo2"
                         value="modelo2"
@@ -67,7 +67,7 @@
             </div>
             <div class="radio-modelo">
                 <label for="modelo3">
-                    <input 
+                    <input
                         type="radio"
                         id="modelo3"
                         value="modelo3"
@@ -89,7 +89,7 @@
         </div>
         <div class="acoes">
             <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button (click)="cancelar()" class="botao">Cancelar</button>
+            <button (click)="cancelar()" routerLink="/listarPensamento" class="botao">Cancelar</button>
         </div>
     </form>
 </section>

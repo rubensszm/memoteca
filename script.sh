@@ -10,3 +10,5 @@ npm install @angular/cli@14.0.0
 #npx ng new memoteca --directory ./
 npx ng serve
 npx ng generate component home
+# extensão Auto Import
+# extensão Angular Extension Pack
