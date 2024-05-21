@@ -14,21 +14,9 @@
     },
     {
       "id": 3,
-      "conteudo": "Viajando na maionese",
+      "conteudo": "Viajando na maionese espacial",
       "autoria": "Anon",
       "modelo": "modelo3"
-    },
-    {
-      "conteudo": "teste",
-      "autoria": "teste",
-      "modelo": "modelo1",
-      "id": 4
-    },
-    {
-      "conteudo": "teste12",
-      "autoria": "teste12",
-      "modelo": "modelo1",
-      "id": 5
     }
   ]
 }
